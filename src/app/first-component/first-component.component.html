@@ -1,0 +1,16 @@
+<div  class=" mt-5 btn-div">
+  <button type="button" class="btn btn-success" (click)="loadImages()">Add images</button>
+</div>
+
+<div class="mydiv">
+   <div *ngFor="let image of imagesArray"  class="card m-3" style="width: 18rem">
+    <div>
+      <img src="{{image.download_url}}" class="card-img-top mt-2" alt="...">
+    </div>
+    <div class="card-body">
+      <h5 class="card-title text-center">author: {{image.author}}</h5>
+      <p class="text-center">{{date.date}} <span>{{date.hour}}:{{date.minutes}}:{{date.seconds}}</span></p>
+      
+    </div>
+  </div>
+</div>

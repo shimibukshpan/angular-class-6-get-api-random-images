@@ -1,0 +1,16 @@
+img{
+    width: 15rem;
+    height: 200px;
+    display: block;
+    margin: auto;
+}
+.mydiv{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+.btn{
+    display: block;
+    margin: auto;
+}
